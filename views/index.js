@@ -75,7 +75,7 @@ function showItems(obj){
         const Des=document.getElementById('description');
         const Cat=document.getElementById('category');
         Amt.value=obj.amount;
-        Des.value=obj.desciption;
+        Des.value=obj.description;
         Cat.value=obj.category;
         const parenElem=event.target.parentElement;
         parenElem.remove();
